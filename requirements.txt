@@ -1,0 +1,12 @@
+pandas>=1.5.0
+openpyxl>=3.1.0
+numpy>=1.23.0
+
+# LLM providers (install one)
+anthropic>=0.30.0       # for --provider anthropic
+anthropic[vertex]       # for --provider vertex (Claude via Google Cloud Vertex AI)
+google-auth             # for --provider vertex (Vertex AI authentication)
+openai>=1.30.0          # for --provider openai or --provider azure
+
+# Web search (optional, improves LLM accuracy)
+ddgs>=9.0               # free, no API key needed (renamed from duckduckgo-search)
